@@ -19,10 +19,10 @@ end
 
 
 
-# def decode(string)
-#   string.split('   ').map { |word| decode_word(word) }.join(' ')
-# end
+def decode(string)
+  string.split('   ').map { |word| decode_word(word) }.join(' ')
+end
 
-# p decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+p decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 
 
