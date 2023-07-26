@@ -17,12 +17,8 @@ def decode_word(string)
   string.split.map { |char| decode_char(char) }.join
 end
 
-
-
 def decode(string)
   string.split('   ').map { |word| decode_word(word) }.join(' ')
 end
 
 p decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-
-
